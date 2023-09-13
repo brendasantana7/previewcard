@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+p{
+    color:#94ABCB;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+     box-shadow: 0 30px .5px 10px #0C1729;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 18px;
+}
+.card .imgCubo{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text{
+height: 100%;
+margin: 10px 0;
+}
+.text h2{
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.text a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.text p {
+  font-weight: 400;
+  margin-bottom: 18px;
+
+}
+
+.balance{
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    height: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.money {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.money .imgEth{
+    height: 17px;
+}
+.money h2 {
+    padding: 8px;
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    font-size: 14px;
+}
+.clock{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.imgClock{
+    height: 17px;
+}
+.clock p {
+    padding: 8px;
+}
+.profile{
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.imgProfile{
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+}
+
+.profile p {
+    font-size: 16px;
+    padding: 10px;
+}
+.profile a{
+    text-decoration: none;
+    color: #fff;
+}
+.profile a:hover{
+    color: hsl(178, 100%, 50%);
+}
