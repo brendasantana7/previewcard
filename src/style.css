@@ -20,13 +20,14 @@ p{
 a{
     text-decoration: none;
     color: #fff;
+    transition: .2s ease-in-out;
 }
 
 .container{
     max-width: 350px;
     margin: 0 auto;
     border-radius: 20px;
-     box-shadow: 0 30px .5px 10px #0C1729;
+    box-shadow: 0 30px .5px 10px #0C1729;
 }
 .card{
     background-color: hsl(216, 50%, 16%);
@@ -36,7 +37,29 @@ a{
 .card .imgCubo{
     width: 100%;
     border-radius: 10px;
+}
+.cardPreview{
+    position: absolute;
+    opacity: 0;
+}
+.cardPreview:hover{
+    opacity: 60%;
     cursor: pointer;
+    transition: .6s ease-in-out;
+}
+.imgPreview{
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    height: 310px;
+    width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.view{
+    height: 62px;
 }
 .text{
 height: 100%;
